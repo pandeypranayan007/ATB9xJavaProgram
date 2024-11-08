@@ -10,14 +10,11 @@ public class String_Builder_function {
         System.out.println(stringBuffer);
 
 
-        StringBuilder stringBuilder = new StringBuilder("Pramod");
-        stringBuilder.append("Sharma");
-        System.out.println(stringBuilder);
+        System.out.println("Pramod" + "Sharma");
 
 
-        StringBuilder sb = new StringBuilder("Hello");
-        sb.append(" World!"); // Modifies sb to "Hello World!"
-        System.out.println(sb.toString()); // Output: Hello World!
+        System.out.println("Hello" + " World!" // Modifies sb to "Hello World!"
+        ); // Output: Hello World!
 
         String s1 = "Hello";
         String s2 = " World!";
